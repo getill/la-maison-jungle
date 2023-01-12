@@ -1,10 +1,12 @@
 import React from "react";
 import Banner from "./Banner";
+import ShoppingList from "./ShoppingList";
 
 const App = () => {
   return (
     <div>
       <Banner />
+      <ShoppingList />
     </div>
   );
 };
